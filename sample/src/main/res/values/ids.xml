@@ -1,0 +1,15 @@
+<resources>
+    <item name="grant_consent" type="id" />
+    <item name="deny_consent" type="id" />
+    <item name="withdraw_consent" type="id" />
+    <item name="call_allowed" type="id" />
+    <item name="call_lookalike" type="id" />
+    <item name="go_offline" type="id" />
+    <item name="go_online" type="id" />
+    <item name="enqueue" type="id" />
+    <item name="enqueue_then_kill" type="id" />
+    <item name="record_metric" type="id" />
+    <item name="delivery_status" type="id" />
+    <item name="flush_replay" type="id" />
+    <item name="replay_secret_input" type="id" />
+</resources>
