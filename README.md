@@ -7,8 +7,7 @@ Android libraries for sending telemetry to Epok. Android 8.0 (API 26) or later.
 
 ## Install with JitPack
 
-The coordinates below are for the planned `0.2.0` release. They become available
-once that tag is published and JitPack builds it.
+Published on JitPack (current release: `0.2.1`).
 
 ```kotlin
 // settings.gradle.kts
@@ -33,7 +32,7 @@ dependencies {
 ```
 
 Choose either library or both. Version 0.1.0 used the replay artifact name
-`epok-replay-android`; the 0.2.0 coordinate uses `epok-replay`.
+`epok-replay-android`; 0.2.x uses `epok-replay`.
 
 ## RUM configuration and consent
 

@@ -7,9 +7,8 @@ this is not a new measurement here and varies with dependencies and shrinking.
 
 ## Install
 
-These coordinates target the planned 0.2.0 release, available after the tag is
-published and JitPack builds it. See the [root README](../README.md) for replay
-configuration and its separate consent API.
+Published on JitPack (current release: `0.2.1`). See the [root README](../README.md)
+for replay configuration and its separate consent API.
 
 ```kotlin
 // settings.gradle.kts
