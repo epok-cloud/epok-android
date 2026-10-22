@@ -1,4 +1,4 @@
 jdk:
   - openjdk17
 install:
-  - ./gradlew --no-daemon :epok-replay:publishToMavenLocal -x test
+  - ./gradlew --no-daemon :epok-replay:publishToMavenLocal :epok-rum-otel:publishToMavenLocal -x test

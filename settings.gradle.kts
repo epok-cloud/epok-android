@@ -6,4 +6,4 @@ dependencyResolutionManagement {
     repositories { google(); mavenCentral() }
 }
 rootProject.name = "epok-rum-android-poc"
-include(":epok-rum", ":epok-replay", ":sample")
+include(":epok-rum", ":epok-replay", ":epok-rum-otel", ":sample")

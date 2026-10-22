@@ -4,11 +4,11 @@ plugins {
     id("maven-publish")
 }
 
-// Published coordinates: dev.epok:epok-replay-android:<version>.
+// Published coordinates: dev.epok:epok-replay:<version>.
 // `./gradlew :epok-replay:publishToMavenLocal` (or a configured repository).
 // JitPack sets GROUP/VERSION from the repository and tag; local builds keep dev.epok.
 group = providers.environmentVariable("GROUP").orElse("dev.epok").get()
-version = providers.environmentVariable("VERSION").orElse(providers.gradleProperty("epokReplayVersion").orElse("0.1.0")).get()
+version = providers.environmentVariable("VERSION").orElse(providers.gradleProperty("epokReplayVersion").orElse("0.2.0")).get()
 
 android {
     namespace = "dev.epok.replay"
@@ -40,7 +40,7 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            artifactId = "epok-replay-android"
+            artifactId = "epok-replay"
             afterEvaluate { from(components["release"]) }
             pom {
                 name.set("Epok session replay for Android")
