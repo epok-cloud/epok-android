@@ -72,7 +72,7 @@ publishing {
             pom {
                 name.set("Epok RUM for Android")
                 description.set("Consent-controlled Android RUM using OpenTelemetry.")
-                url.set("https://github.com/jayswamidass/epok-android")
+                url.set("https://github.com/epok-cloud/epok-android")
             }
         }
     }

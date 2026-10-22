@@ -28,9 +28,9 @@ android {
     packaging.resources.excludes += "META-INF/versions/9/OSGI-INF/MANIFEST.MF"
 }
 dependencies {
-    implementation("com.github.jayswamidass.epok-android:epok-rum-otel:0.2.0")
+    implementation("com.github.epok-cloud.epok-android:epok-rum-otel:0.2.1")
     // Optional, independent masked wireframe replay:
-    implementation("com.github.jayswamidass.epok-android:epok-replay:0.2.0")
+    implementation("com.github.epok-cloud.epok-android:epok-replay:0.2.1")
 }
 ```
 
